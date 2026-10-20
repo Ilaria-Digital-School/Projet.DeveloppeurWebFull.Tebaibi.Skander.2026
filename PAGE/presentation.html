@@ -1,60 +1,123 @@
 <!DOCTYPE html>
-<html lang="r">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bienvenue dans notre ecole de danse urbaine">
+    <meta name="robots" content=" index, follow">
+
+
+    <title>ecole de danse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../ASSETS/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>ecole de danse</title>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-359GMHY8K7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-359GMHY8K7');
+    </script>
+
 </head>
 <body>
     
 
     <header>
         <h1>Ecole de danse</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Accueil</a>
-                </li>
-                <li>
-                    <a href="presentation.html">Présentation</a>
-                </li>
-                <li>
-                    <a href="about_l'ecole.html">A propos de l'école</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="inscription.html">inscription</a>
-                </li>
-                <li>
-                    <a href="connexion.html">connexion</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="../index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="presentation.html">Présentation</a>
+                        </li>
+                        <li>
+                            <a href="a_propos_de_l'ecole.html">A propos de l'école</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="inscription.html">inscription</a>
+                        </li>
+                        <li>
+                            <a href="connexion.html">connexion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Bienvenue à notre école de danse</h2>
-            <p>Découvrez nos cours de danse pour tous les niveaux et âges.</p>
-            <p>
-                Notre école de danse vous propose des cours pour tous les âges et niveaux, dans un cadre chaleureux et
-                accueillant.
-            </p>
+        <section class="banner2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-6">
+                        <h2>Bienvenue à notre école de danse</h2>
+                        <p>Découvrez nos cours de danse pour tous les niveaux et âges.</p>
+                        <p>
+                            Notre école de danse vous propose des cours pour tous les âges et niveaux, dans un cadre chaleureux
+                            et
+                            accueillant.
+                        </p>
+        
+                        <a href="../PAGE/inscription.html">Inscription</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>ce que propose notre ecole de danse urbain</h2>
-            <p>
-                
-            </p>
+      
+
+        <section class="banner3">
+            <h2>Proffesseur de breakdance</h2>
+            <div class="container text-center">
+                <div class="row">
+        
+        
+                    <div class="col-12 col-md-8">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../ASSETS/IMAG/skander teb.webp" class="d-block w-100" alt="skander teb">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ASSETS/IMAG/bboy imag 1.webp" class="d-block w-100" alt="bboy freez">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../ASSETS/IMAG/bboy image 2.webp" class="d-block w-100" alt="bboy freez">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-md-4">
+                        <h3>Cours de breakdanse</h3>
+                        <p>800$ à l'année</p>
+                        <button type="button">reservation</button>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
-
-
 
 
 
@@ -84,10 +147,10 @@
     
     <footer>
         <a href="https://facebook.com" target="_blank">
-            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-facebook">Feacbook</i>
         </a>
         <a href="https://instagram.com" target="_blank">
-            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-instagram">Instagram</i>
         </a>
     
         <p>&copy; 2024 Ecole de Danse. Tous droits réservés.</p>
@@ -95,11 +158,8 @@
 
 
 
-
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

@@ -24,6 +24,59 @@ main{
 }
 
 
+.banner{
+    height: 600px;
+    background-image: url(../IMAG/bboy\ image3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.banner a{
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.banner2{
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: url(../IMAG/logo\ écolede\ danse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner2 a{
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.banner3{
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+   
+    
+}
+
+
+
+
+
+
 header{
     
     border: 2px solid black;
@@ -40,6 +93,7 @@ header{
     list-style: none;
     position: sticky;
     top: 0;
+    z-index: 100;
 
     
 
@@ -55,6 +109,7 @@ header ul{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 0% auto;
     
     
 
@@ -96,6 +151,13 @@ h2{
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+
+  
     
 }
 
@@ -106,20 +168,19 @@ h2{
     
 }  
 
-.content-flexbox{
-    justify-content: center;
-    display: flex;
-    flex-direction: space-evenly;
-    justify-content: center;
-    align-items:center;
+
+    
+   
     
   
 
 
     
-}
+
 .contenair{
     align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button  {
@@ -134,7 +195,7 @@ button  {
 }
 
 button:hover{
-    background-color: red ;
+    background-color: blanchedalmond ;
     font-size: larger;
     color: black;
 }
@@ -223,9 +284,24 @@ footer i{
 }
 
 
+footer{
+    padding: 10px;
+    margin: 10px;
+}
+
+.new_dis{
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 5px;
+    
+}
 
 
-.conexion-from{
+
+
+.section-form{
     width: 100%;
     padding: 20px;
     margin: 20px auto;
@@ -238,8 +314,13 @@ footer i{
 }
 
 
+input[type=ema]
+
+
+
+
 form{
-    text-align: center;
+     text-align: center;
       padding: 20px ;
       width: 100%;
       margin: 20px auto;
@@ -249,43 +330,57 @@ form{
 
 
 fieldset{
+    
+    text-align: center;
     border: 2px solid rgb(195, 195, 195);
     width: 100%;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+    
 
 }
 
 
-#email{
+
+#mdp{
+    border: 1px solid  rgb(195, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select{
     border: 1px solid rgb(195, 195, 195);
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
+}
+   
   
 
-}
 
-#password{
-    border: 1px solid rgb(195, 195, 195);
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+
+
+
    
 
-}
 
 
-
-input[type="submit"]
-input[type="reset"]
-input[type="button"]
-input[type="file"]
-input[type="image"]
-input[type="password"]
-input[type="radio"]
-input[type="checkbox"]  
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="file"],
+input[type="image"],
+input[type="radio"],
+input[type="checkbox"],
 select{
     background-color:blanchedalmond;
     color:  black;
@@ -309,4 +404,9 @@ select{
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+
+
+.section-titleh3{
+    margin: 10px 
 }

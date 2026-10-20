@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="page d'inscription à l'ecole de danse urbain">
+    <meta name="robots" content=" index, follow">
+
+
+    <title>ecole de danse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../ASSETS/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>ecole de danse</title>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-359GMHY8K7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-359GMHY8K7');
+    </script>
+
 </head>
+
 <body>
-    
+
 
 
 
@@ -39,71 +56,72 @@
     </header>
     <main>
         <section>
-            <h2 >Enregistrement</h2>
+            <h2>Enregistrement</h2>
         </section>
 
-        <form action="Inscription-form">
-        
-            <fieldset>
-                <legend>Informations d'inscription</legend>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="@gmail.com" value="">
-                </div>
-                <div>
-                    <label for="mdp">Mot de passe</label>
-                    <input type="password" name="mdp" id="mdp" placeholder="mot de passe" value="">
-                </div>
-                <div>
-                    <label for="nom">Nom</label>
-                    <input type="text" id="nom" placeholder="votre nom" value="">
-                </div>
-                <div>
-                    <label for="prenom">Prénom</label>
-                    <input type="text" id="prenom" placeholder="votre prénom" value="">
-                </div>
-                <div>
-                    <label for="date">Date de naissance</label>
-                    <input type="date" id="date" value="">
-                </div>
-                <div>
-                    <label for="tel">Numéro de téléphone</label>
-                    <input type="tel" id="tel" placeholder="votre numéro de téléphone" value="">
-                </div>
-                <div>
-                    <label for="ville">Ville</label>
-                    <input type="checkbox" id="ville" placeholder="votre ville" value="">
-                    <select name="ville" id="ville">
-                        <option value="">Sélectionnez une ville</option>
-                        <option value="paris">Paris</option>
-                        <option value="lyon">Lyon</option>
-                        <option value="marseille">Marseille</option>
-                        <option value="toulouse">Toulouse</option>
-                        <option value="bordeaux">Bordeaux</option>
-                        <option value="lille">Lille</option>
-                        <option value="nice">Nice</option>
-                    </select>
-            </fieldset>
-            <fieldset>
-                <legend>Information d'inscription</legend>
-                <div>
-                    <label for="cours">enfants</label>
-                    <input type="radio" id="cours" placeholder="votre cours" value="">
-                </div>
-                <div>
-                    <label for="cours">adulte</label>
-                    <input type="radio" id="cours" placeholder="votre cours" value="">
 
-                </div>
-                <div>
-                    <label for="cours">adolescents</label>
-                    <input type="radio" id="cours" placeholder="votre cours" value="">
-                </div>
-            </fieldset>
-        </form>
+        <section class="section-form">
+            <form >
+                <fieldset>
+                    <legend>Informations d'inscription</legend>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="@gmail.com" value="">
+                    </div>
+                    <div>
+                        <label for="mdp">Mot de passe</label>
+                        <input type="password" name="mdp" id="mdp" placeholder="mot de passe" value="">
+                    </div>
+                    <div>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" placeholder="votre nom" value="">
+                    </div>
+                    <div>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" placeholder="votre prénom" value="">
+                    </div>
+                    <div>
+                        <label for="date">Date de naissance</label>
+                        <input type="date" id="date" value="">
+                    </div>
+                    <div>
+                        <label for="tel">Numéro de téléphone</label>
+                        <input type="tel" id="tel" placeholder="votre numéro de téléphone" value="">
+                    </div>
+                    <div>
+                        <label for="ville">Ville</label>
+                        <input type="checkbox" id="ville" placeholder="votre ville" value="">
+                        <select name="ville" id="ville">
+                            <option value="">Sélectionnez une ville</option>
+                            <option value="paris">Paris</option>
+                            <option value="lyon">Lyon</option>
+                            <option value="marseille">Marseille</option>
+                            <option value="toulouse">Toulouse</option>
+                            <option value="bordeaux">Bordeaux</option>
+                            <option value="lille">Lille</option>
+                            <option value="nice">Nice</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Information d'inscription</legend>
+                    <div>
+                        <label for="cours">enfants</label>
+                        <input type="radio" id="cours" placeholder="votre cours" value="">
+                    </div>
+                    <div>
+                        <label for="cours">adulte</label>
+                        <input type="radio" id="cours" placeholder="votre cours" value="">
         
+                    </div>
+                    <div>
+                        <label for="cours">adolescents</label>
+                        <input type="radio" id="cours" placeholder="votre cours" value="">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
-    
+
     <footer>
         <a href="https://facebook.com" target="_blank">
             <i class="fa-brands fa-square-facebook"></i>
@@ -113,3 +131,10 @@
         </a>
         <p>&copy; 2024 Ecole de Danse. Tous droits réservés.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
