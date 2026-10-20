@@ -24,6 +24,33 @@ main{
 }
 
 
+.banner{
+    height: 600px;
+    background-image: url(../IMAG/bboy\ image3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.banner a{
+    background-color: blanchedalmond;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+
+.banner2{
+    
+}
+
+
+
+
+
 header{
     
     border: 2px solid black;
@@ -40,6 +67,7 @@ header{
     list-style: none;
     position: sticky;
     top: 0;
+    z-index: 100;
 
     
 
@@ -96,6 +124,13 @@ h2{
     padding: 20px;
     text-align: center;
     border-radius: 5px;
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+
+  
     
 }
 
@@ -106,20 +141,19 @@ h2{
     
 }  
 
-.content-flexbox{
-    justify-content: center;
-    display: flex;
-    flex-direction: space-evenly;
-    justify-content: center;
-    align-items:center;
+
+    
+   
     
   
 
 
     
-}
+
 .contenair{
     align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button  {
@@ -134,7 +168,7 @@ button  {
 }
 
 button:hover{
-    background-color: red ;
+    background-color: blanchedalmond ;
     font-size: larger;
     color: black;
 }
