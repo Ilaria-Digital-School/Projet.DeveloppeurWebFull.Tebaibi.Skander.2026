@@ -46,10 +46,10 @@ main{
 
 .banner2{
     background-color: blanchedalmond;
-    padding: 15px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
-    background-image: url(../IMAG/logo\ écolede\ danse.png);
+    background-image: url(../IMAG/logo_école_de_danse.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -225,8 +225,15 @@ button:active{
     padding: 20px 20px;
     margin: 0% auto;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
+
+.contenair1{
+    width: 100%;
+    overflow-x: auto;
+
+}
 
 .content-table{
     width: 100%;
@@ -248,20 +255,79 @@ table img{
 
 }
 
-th{
+
+.table2 {
+   background-color:blanchedalmond ;
+   width: 100%;
+   padding: 10px;
+   border: 2px solid rgb(204, 204, 204); 
+   border-radius: 5px;
+   text-align: center;
+   border-collapse: collapse;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 20px 10px;
+}
+
+
+
+
+caption{
+    width: 100%;
+    background-color: blanchedalmond;
+    border: 2px solid rgb(204, 204, 204) ;
+    border-radius: 5px;
+    text-align: center;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+
+thead th{
+    border : 2px solid rgb(204, 204, 204);
+    text-align: center;
+
+}
+
+td{
+    border-radius: 5px;
+    border: 2px solid rgb(204, 204, 204);
+    border-collapse: collapse;
+}
+
+tr{
+    border : 2px solid rgb(204, 204, 204);
+    
+
+
+}
+
+
+
+.table1 th{
     Background-color: blanchedalmond;
     width: 100%;
     border: 2px solid rgb(204, 204, 204);
     border-radius: 5px;
     padding: 10px 10px;
-    border-collapse: collapse;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
+th{
+    border: #d7d7d7;
+    border-radius: 1px solid grey;
 
-table{
+}
+
+
+
+
+
+
+
+
+.table1{
     Background-color: blanchedalmond;
     Width: 100%;
     padding: 10px;
@@ -272,7 +338,7 @@ table{
 
 
 }
-td{
+.table1 td{
     background-color: blanchedalmond;
     border: 2px solid rgb(204, 204, 204);
     text-align: center;
