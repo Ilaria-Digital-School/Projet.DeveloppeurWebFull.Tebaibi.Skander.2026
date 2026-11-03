@@ -243,6 +243,7 @@ button:active{
     padding: 20px;
     overflow: hidden;
     overflow-x: auto;
+    position: relative;
     
 
 }
@@ -335,6 +336,7 @@ th{
     border-radius: 5px ;
     border-collapse: collapse;
     overflow-x: auto;
+    position: relative;
 
 
 }
@@ -361,6 +363,7 @@ footer{
     border-radius: 5px;
     background-color: aquamarine;
     padding: 5px;
+    
     
 }
 
