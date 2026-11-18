@@ -1,0 +1,17 @@
+{
+  "utilisateurs": [
+    {
+      "email": "skander.tebaibi@gmail.com",
+      "mdp": "123456789",
+      "prenom": "Skander",
+      "date": "",
+      "tel": "0788296354",
+      "ville": "",
+      "enfant": "",
+      "adulte": "",
+      "ado": "",
+      "id": "lF7nqn_NzQQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

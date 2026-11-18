@@ -1,3 +1,6 @@
+
+
+
 const btnScroll = document.querySelector(".scroll-to-top")
 console.log(btnScroll);
 
@@ -13,5 +16,8 @@ if (btnScroll) {
     )
     
 }
+
+
+
 
 
